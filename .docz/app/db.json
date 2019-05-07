@@ -1,0 +1,115 @@
+{
+  "config": {
+    "title": "React Base",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "props": [
+    {
+      "key": "src/components/layout/styled-components/button.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "upper": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "background": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'green'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'blue'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'blue'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "src/components/layout/styled-components/docs/button.mdx",
+      "value": {
+        "name": "Button",
+        "id": "f06bf2c20ee8a8d52a8a882f1fa40d2d",
+        "filepath": "src/components/layout/styled-components/docs/button.mdx",
+        "link": "",
+        "slug": "src-components-layout-styled-components-docs-button",
+        "route": "/src-components-layout-styled-components-docs-button",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "with-different-colors",
+            "depth": 2,
+            "value": "With different colors"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/layout/styled-components/docs/index.mdx",
+      "value": {
+        "name": "Getting Started",
+        "route": "/",
+        "id": "9c9b380a8d6dc9f18ca8c3b9747a739d",
+        "filepath": "src/components/layout/styled-components/docs/index.mdx",
+        "link": "",
+        "slug": "src-components-layout-styled-components-docs-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "doc-for-components",
+            "depth": 1,
+            "value": "Doc for components"
+          }
+        ]
+      }
+    }
+  ]
+}
